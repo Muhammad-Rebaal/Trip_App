@@ -1,0 +1,24 @@
+{% load tailwind_filters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    {% comment %} <div class="w-3/4 mx-auto mt-10 place-content-center"> {% endcomment %}
+    <div class="w-2/4 mx-auto mt-20 place-content-center">
+        <h1 class="text-4xl ">You've been logged out.</h1>
+        <hr class="mt-20">
+<h1 class="text-center"></h1>
+<p class="mt-11">
+    <a class="px-8 py-2 bg-green-400 hover:cursor-pointer hover:bg-green-300 rounded" href="{% url 'login' %}">Login Here</a>
+</p>
+
+    </div>
+</body>
+</html>
