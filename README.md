@@ -10,13 +10,13 @@
 
 | Trip Main Page | Trip Form Page | My Notes Page |
 | --- | --- | --- |
-| ![Trip Main Page](TripMainPage.png) | ![Trip Form Page](TripFormPage.png) | ![My Notes Page](MyNotesPage.png) |
+| ![Trip Main Page](TripMainPage.png) | ![Trip Form Page](TripForm.png) | ![My Notes Page](MyNotes.png) |
 
 ### Notes Pages
 
 | Notes Form Page | Trip Details Page | Note Details Page |
 | --- | --- | --- |
-| ![Notes Form Page](NotesFormPage.png) | ![Trip Details Page](TripDetailsPage.png) | ![Note Details Page](NoteDetailsPage.png) |
+| ![Notes Form Page](NoteForm.png) | ![Trip Details Page](TripDetails.png) | ![Note Details Page](NoteDetails.png) |
 
 ## Features
 
