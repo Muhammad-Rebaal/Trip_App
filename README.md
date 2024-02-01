@@ -1,10 +1,13 @@
 # Trip-App Documentation
 
-## Screenshots
+## Description:
+The Trip-App, built with Django and Tailwind CSS, offers a user-centric approach to streamline trip management. Create and explore trips effortlessly through intuitive interfaces, while seamlessly managing notes. Whether planning a journey or revisiting past adventures, this application ensures a hassle-free and organized travel experience. With a focus on simplicity and functionality, the Trip-App enhances the way users document and navigate their travel stories.
 
 ### Main Pages
 
-![Main Page](MainPage.png) ![Login Page](LoginPage.png) ![Submit Page](SignUpPage.png)
+| Main Page | Login Page | Submit Page |
+| --- | --- | --- |
+| ![Main Page](MainPage.png) | ![Login Page](LoginPage.png) | ![Submit Page](SignUpPage.png) |
 
 ### Trip Pages
 
