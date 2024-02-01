@@ -37,7 +37,7 @@ The Trip-App, built with Django and Tailwind CSS, offers a user-centric approach
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+1. Clone the repository: `git clone https://github.com/Muhammad-Rebaal/Trip_App.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run migrations: `python manage.py migrate`
 4. Start the development server: `python manage.py runserver`
