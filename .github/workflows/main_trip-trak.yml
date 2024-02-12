@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - Trip-trak
+name: Build and deploy Python app to Azure Web App - Trip-Trak
 
 on:
   push:
@@ -65,14 +65,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_EBFAFCAEBB514DE9B39BD1297FF51A3F }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_B7077318DB0F44F0AD128B81DDB8A338 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_71CBE1B3F74D467F80B902245EFCDB8B }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_132ADC4AE244416E85F999D975FDA5CC }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_1EA0AB0834EA467A8B1BF3F3496713A0 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E92AE7179E0B429F9FB3520B1D06C6BE }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'Trip-trak'
+          app-name: 'Trip-Trak'
           slot-name: 'Production'
           
