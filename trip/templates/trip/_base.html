@@ -14,10 +14,10 @@
             <div class="pt-4 w-full text-center">
                 <ul class="flex md:flex-col justify-around px-2 md:px-0 pb-2 md:pb-0">
                     <a href="{% url 'trip-list' %}">
-                        <li class="py-2 px-3 md:px-0 hover:bg-gray-600 hover:cursor-pointer">My Trips</li>
+                        <li class="py-2 px-3 md:px-0 hover:bg-gray-600 hover:cursor-pointer"><a href="{% url 'trip-list'%}">My Trips</a></li>
                     </a>
-                    <a href="{% url 'trip-create' %}">
-                        <li class="py-2 px-3 md:px-0 hover:bg-gray-600 hover:cursor-pointer">New Trip +</li>
+                    {% comment %} <a href="{% url 'trip-create' %}"> {% endcomment %}
+                        <li class="py-2 px-3 md:px-0 hover:bg-gray-600 hover:cursor-pointer"><a href="{% url 'trip-create'%}">New Trip +</a></li>
                     </a>
                     <a href="{% url 'note-list' %}">
                         <li class="py-2 px-3 md:px-0 hover:bg-gray-600 hover:cursor-pointer">My Notes</li>
@@ -30,9 +30,10 @@
             <div class="mt-auto w-full text-center flex md:flex-col justify-evenly py-2 md:pt-0">
                 <p class="">{{user.username}}</p>
                 <hr class="my-2">
-                <a class="underline" href="{% url 'logout' %}">
-                    Logout
-                </a>
+                <form method="post" action="{% url 'logout' %}">
+                    {% csrf_token %}
+                    <button class="underline" type="submit">logout</button>
+                </form>
             </div>
         </div>
         <div class="w-full md:w-full p-10 overflow-auto">
